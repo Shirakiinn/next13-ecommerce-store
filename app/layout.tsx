@@ -10,7 +10,7 @@ import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Store',
+  title: 'VeganRoots',
   description: 'Store - The place for all your purchases.',
 }
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="pt_BR">
       <body className={font.className}>
         <ToastProvider />
         <ModalProvider />
