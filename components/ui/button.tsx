@@ -1,5 +1,4 @@
 import { forwardRef } from "react";
-
 import { cn } from "@/lib/utils";
 
 export interface ButtonProps
@@ -19,7 +18,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
         `
         w-auto 
         rounded-full 
-        bg-black
+        bg-green-500
         border
         border-transparent
         px-5 
