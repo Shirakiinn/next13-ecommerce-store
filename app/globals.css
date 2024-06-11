@@ -54,3 +54,9 @@ body,
     --ring: 142.4 71.8% 29.2%; /* verde */
   }
 }
+
+.shadow-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+   
+}
+
