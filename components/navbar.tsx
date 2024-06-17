@@ -11,8 +11,7 @@ const Navbar = async () => {
 
   return (
     <div>
-      <TopBar /> {/* TopBar stays at the top */}
-      
+      <TopBar /> {/* Add the TopBar component here */}
       <div className="sticky-navbar">
         <Container>
           <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
@@ -23,14 +22,12 @@ const Navbar = async () => {
             <NavbarActions />
           </div>
         </Container>
-
       </div>
+      <InfoBar /> {/* Add the InfoBar component here */}
       <div style={{ paddingTop: '64px' }}>
-      <InfoBar /> {/* InfoBar stays below TopBar */}
+        {/* Your page content goes here */}
       </div>
-
     </div>
-    
   );
 };
 

@@ -53,12 +53,7 @@ body,
     --input: 120 55% 15%; /* verde mais escuro */
     --ring: 142.4 71.8% 29.2%; /* verde */
   }
-
-  .sticky-navbar {
-    @apply fixed left-0 right-0 z-50 bg-white border-b;
-  }
-}
-
 .shadow-text {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
 }
