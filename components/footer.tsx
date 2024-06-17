@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="bg-[#22c55e] border-t">
       <div className="container mx-auto py-10">
         <div className="mb-8 text-center">
-          <h2 className="text-xl font-bold mb-2 text-white">News da Urban</h2>
+          <h2 className="text-xl font-bold mb-2 text-white">News da Vegan</h2>
           <p className="mb-4 text-white">Inscreva-se e <span className="font-bold">ganhe 5% de desconto</span> na sua primeira compra</p>
           <form className="flex justify-center">
             <input
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-left text-white">
           <div>
-            <h3 className="font-bold mb-2">sobre a urban</h3>
+            <h3 className="font-bold mb-2">sobre a vegan</h3>
             <ul>
               <li><a href="#" className="hover:underline">blog</a></li>
               <li><a href="#" className="hover:underline">contato</a></li>
