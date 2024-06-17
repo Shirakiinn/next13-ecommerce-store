@@ -48,6 +48,7 @@ const Footer: React.FC = () => {
               <li><img src="/path-to-mastercard-icon.png" alt="Mastercard" className="h-8 mx-1 my-1" /></li>
               <li><img src="/path-to-amex-icon.png" alt="American Express" className="h-8 mx-1 my-1" /></li>
               <li><img src="/path-to-paypal-icon.png" alt="PayPal" className="h-8 mx-1 my-1" /></li>
+              <li><img src="/path-to-paypal-icon.png" alt="Pix" className="h-8 mx-1 my-1" /></li>
               {/* Adicione mais ícones conforme necessário */}
             </ul>
           </div>
