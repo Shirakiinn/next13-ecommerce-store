@@ -53,7 +53,32 @@ body,
     --input: 120 55% 15%; /* verde mais escuro */
     --ring: 142.4 71.8% 29.2%; /* verde */
   }
-.shadow-text {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
+
+  .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .impact-title {
+    @apply text-2xl font-bold text-center my-10;
+  }
+
+  .impact-section {
+    @apply flex flex-wrap justify-center gap-10 mt-6;
+  }
+
+  .impact-item {
+    @apply flex flex-col items-center;
+  }
+
+  .impact-icon {
+    @apply w-12 h-12;
+  }
+
+  .impact-value {
+    @apply mt-2 font-bold;
+  }
+
+  .impact-description {
+    @apply text-sm;
+  }
 }
