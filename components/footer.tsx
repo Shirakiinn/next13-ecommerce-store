@@ -44,22 +44,18 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold mb-2">Formas de pagamento</h3>
             <ul className="flex flex-wrap justify-center lg:justify-start">
-              <li><img src="/path-to-visa-icon.png" alt="Visa" className="h-8 mx-1 my-1" /></li>
-              <li><img src="/path-to-mastercard-icon.png" alt="Mastercard" className="h-8 mx-1 my-1" /></li>
-              <li><img src="/path-to-amex-icon.png" alt="American Express" className="h-8 mx-1 my-1" /></li>
-              <li><img src="/path-to-paypal-icon.png" alt="PayPal" className="h-8 mx-1 my-1" /></li>
-              <li><img src="/path-to-paypal-icon.png" alt="Pix" className="h-8 mx-1 my-1" /></li>
-              {/* Adicione mais ícones conforme necessário */}
+              <img src="https://www.urbanflowers.com.br/wp-content/uploads/2019/10/Camada-3.png" alt="Visa" />
+              
             </ul>
           </div>
         </div>
         <div className="mt-8 text-center">
           <h3 className="font-bold mb-2 text-white">Certificações</h3>
-          <div className="flex flex-wrap justify-center items-center space-x-4">
-            <img src="/path-to-vegan-certification.png" alt="Vegan Certification" className="h-16 my-1" />
-            <img src="/path-to-eureciclo-certification.png" alt="Eureciclo Certification" className="h-16 my-1" />
-            <img src="/path-to-lixo-zero-certification.png" alt="Lixo Zero Certification" className="h-16 my-1" />
-            <img src="/path-to-norton-certification.png" alt="Norton Certification" className="h-16 my-1" />
+          <div className="flex flex-wrap justify-center space-x-10">
+            <img src="https://www.urbanflowers.com.br/wp-content/uploads/2019/10/peta-2.png" alt="Vegan Certification" className="h-16 my-1" />
+            <img src="https://www.urbanflowers.com.br/wp-content/uploads/2019/10/eureciclo.png" alt="Eureciclo Certification" className="h-16 my-1" />
+            <img src="https://www.urbanflowers.com.br/wp-content/uploads/2018/07/Selo-Empresa-Lixo-Zero-Certificada-2021-3-300x201.png" alt="Lixo Zero Certification" className="h-16 my-1" />
+            <img src="https://www.urbanflowers.com.br/wp-content/uploads/2019/10/norton.png" alt="Norton Certification" className="h-16 my-1" />
             {/* Adicione mais certificados conforme necessário */}
           </div>
         </div>
