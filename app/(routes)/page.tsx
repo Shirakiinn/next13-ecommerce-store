@@ -24,7 +24,7 @@ const HomePage = async () => {
         {/* Adicionando a seção das três imagens */}
         <div className="flex justify-center my-10 space-x-4">
         <img src="https://tinypic.host/images/2024/06/20/Prancheta-4-768x893_jpg.png" alt="Imagem 1" className="w-1/3" />
-        <img src="https://tinypic.host/images/2024/06/20/ZERO-PLASTICO-768x894_jpg.png" alt="Imagem 2" className="w-1/3" />
+        <img src="https://tinypic.host/images/2024/06/24/ZERO-PLASTICO-768x894_jpg_png.png" alt="Imagem 2" className="w-1/3" />
         <img src="https://tinypic.host/images/2024/06/20/Prancheta-6-768x893_jpg.png" alt="Imagem 3" className="w-1/3" />
         </div>
         {/* Adicionando a seção de impacto ambiental */}

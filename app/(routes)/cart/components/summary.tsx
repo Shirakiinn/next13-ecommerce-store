@@ -16,12 +16,12 @@ const Summary = () => {
 
   useEffect(() => {
     if (searchParams.get('success')) {
-      toast.success('Payment completed.');
+      toast.success('Pagamento bem-sucedido.');
       removeAll();
     }
 
     if (searchParams.get('canceled')) {
-      toast.error('Something went wrong.');
+      toast.error('Algo deu errado.');
     }
   }, [searchParams, removeAll]);
 
@@ -51,7 +51,7 @@ const Summary = () => {
         </div>
       </div>
       <Button onClick={onCheckout} disabled={items.length === 0} className="w-full mt-6">
-        Checkout
+        Finalizar compra
       </Button>
     </div>
   );
